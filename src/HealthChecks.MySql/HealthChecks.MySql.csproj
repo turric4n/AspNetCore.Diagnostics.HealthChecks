@@ -3,8 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageTags>$(PackageTags);MySQL</PackageTags>
-    <Description>HealthChecks.MySql is the health check package for MySQL.</Description>
+    <Description>HealthChecks.MySql is the health check package for MySQL.
+That's an experimental fork, waiting for accept PR in official.</Description>
     <VersionPrefix>$(HealthCheckMySql)</VersionPrefix>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>AspNetCore.$(MSBuildProjectName).TurricansFork</PackageId>
+    <Company>Xabaril (Turrican's Fork)</Company>
+    <PackageProjectUrl>https://github.com/turric4n/AspNetCore.Diagnostics.HealthChecks</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/turric4n/AspNetCore.Diagnostics.HealthChecks</RepositoryUrl>
+    <Authors>Xabaril Contributors (Turrican's Fork)</Authors>
+    <Version>$(VersionPrefix)-tns</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -27,7 +27,7 @@
     <HealthCheckKeyVault>7.0.0</HealthCheckKeyVault>
     <HealthCheckKubernetes>7.0.0</HealthCheckKubernetes>
     <HealthCheckMongoDB>7.0.0</HealthCheckMongoDB>
-    <HealthCheckMySql>7.0.0</HealthCheckMySql>
+    <HealthCheckMySql>7.0.1</HealthCheckMySql>
     <HealthCheckNetwork>7.0.0</HealthCheckNetwork>
     <HealthCheckNats>7.0.0</HealthCheckNats>
     <HealthCheckNpgSql>7.0.0</HealthCheckNpgSql>
